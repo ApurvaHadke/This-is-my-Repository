@@ -6,3 +6,14 @@ for(let i=0;i<=arr.length;i++){
   }
 }
 console.log(count)
+let str = "racecare";
+let bag = "";
+function checkPalindrome(){
+    for(let i=arr.length-1;i<=0;i++){
+       if(bag==str){
+         return true
+       }else{
+        return false
+       }
+    }
+}
